@@ -42,7 +42,7 @@ layers:
   - {t: '&to_layer_0 LANG2', h: '3'}
   - BACKSPACE
   - {t: SPACE, h: '1'}
-  - LEFT ALT
+  - A
   '1':
   - '1'
   - '2'
