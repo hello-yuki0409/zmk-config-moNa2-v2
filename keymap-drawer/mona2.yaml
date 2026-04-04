@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - F13
+  - BT CLR ALL
   - H
   - J
   - K
@@ -28,8 +28,8 @@ layers:
   - V
   - B
   - F14
-  - F15
-  - A
+  - {t: BT, h: '0'}
+  - N
   - M
   - ','
   - .
@@ -40,7 +40,7 @@ layers:
   - A
   - {t: ENTER, h: '2'}
   - {t: '&to_layer_0 LANG2', h: '3'}
-  - {t: '&to_layer_0 LANG1', h: '3'}
+  - {t: '&to_layer_0 K_BACK', h: '3'}
   - {t: SPACE, h: '1'}
   - LEFT ALT
   '1':
