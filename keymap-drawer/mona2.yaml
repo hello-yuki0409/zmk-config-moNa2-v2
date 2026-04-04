@@ -29,7 +29,7 @@ layers:
   - B
   - F14
   - F15
-  - N
+  - A
   - M
   - ','
   - .
@@ -37,7 +37,7 @@ layers:
   - LCTRL
   - LEFT WIN
   - B
-  - BACKSPACE
+  - A
   - {t: ENTER, h: '2'}
   - {t: '&to_layer_0 LANG2', h: '3'}
   - {t: '&to_layer_0 LANG1', h: '3'}
