@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - ;
+  - ENTER
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -33,14 +33,14 @@ layers:
   - M
   - ','
   - .
-  - /
+  - '-'
   - LCTRL
   - LEFT WIN
   - B
-  - A
+  - SPACE
   - {t: ENTER, h: '2'}
   - {t: '&to_layer_0 LANG2', h: '3'}
-  - {t: '&to_layer_0 K_BACK', h: '3'}
+  - BACKSPACE
   - {t: SPACE, h: '1'}
   - LEFT ALT
   '1':
