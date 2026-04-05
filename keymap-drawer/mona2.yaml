@@ -34,19 +34,19 @@ layers:
   - ','
   - .
   - '-'
-  - LCTRL
-  - LEFT WIN
+  - LEFT COMMAND
+  - LEFT ALT
   - B
-  - SPACE
-  - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
+  - '&mkp LCLK'
+  - {t: SPACE, h: '2'}
+  - {t: '&to_layer_0 LANG_ZENKAKUHANKAKU', h: '3'}
   - BACKSPACE
-  - {t: SPACE, h: '1'}
-  - A
+  - {t: ENTER, h: '1'}
+  - '&mkp RCLK'
   '1':
   - '1'
   - '2'
-  - '3'
+  - UP ARROW
   - '4'
   - '5'
   - '6'
@@ -54,20 +54,17 @@ layers:
   - '8'
   - '9'
   - '0'
+  - HOME
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - END
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - (
-  - )
-  - {t: ▽, type: trans}
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '9'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -75,8 +72,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '|'
+  - '0'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - ','
   '2':
   - '!'
   - '@'
