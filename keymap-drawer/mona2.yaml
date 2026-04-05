@@ -16,19 +16,19 @@ layers:
   - D
   - F
   - G
-  - BT CLR ALL
+  - PRINTSCREEN
   - H
   - J
   - K
   - L
-  - ENTER
+  - ':'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
-  - F14
-  - {t: BT, h: '0'}
+  - LANG4
+  - F12
   - N
   - M
   - ','
@@ -107,7 +107,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - '='
-  - +
+  - ;
   - F1
   - F2
   - F3
