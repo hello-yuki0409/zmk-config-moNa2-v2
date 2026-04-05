@@ -11,8 +11,8 @@ layers:
   - I
   - O
   - P
-  - A
-  - S
+  - BT CLR ALL
+  - {t: BT, h: '0'}
   - D
   - F
   - G
