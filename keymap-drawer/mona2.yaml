@@ -11,12 +11,12 @@ layers:
   - I
   - O
   - P
-  - BT CLR ALL
-  - {t: BT, h: '0'}
+  - {t: A, h: LEFT CONTROL}
+  - B
   - D
   - F
   - G
-  - PRINTSCREEN
+  - F12
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - LANG4
-  - F12
+  - PRINTSCREEN
   - N
   - M
   - ','
