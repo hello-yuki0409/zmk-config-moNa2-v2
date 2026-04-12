@@ -38,10 +38,10 @@ layers:
   - LEFT ALT
   - B
   - '&mkp LCLK'
-  - {t: SPACE, h: '2'}
+  - {t: SPACE, h: '3'}
   - {t: '&to_layer_0 LANG_ZENKAKUHANKAKU', h: '3'}
   - BACKSPACE
-  - {t: ENTER, h: '1'}
+  - {t: ENTER, h: '2'}
   - '&mkp RCLK'
   '1':
   - '1'
@@ -84,11 +84,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - ','
   '2':
   - '!'
-  - '@'
+  - '!'
   - '#'
   - $
   - '%'
@@ -124,10 +124,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
   - {t: ▽, type: trans}
@@ -167,8 +167,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
