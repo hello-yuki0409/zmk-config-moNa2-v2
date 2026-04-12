@@ -23,6 +23,14 @@
 };
 
 / {
+    zip_xy_to_rel_rx_ry: zip_xy_to_rel_rx_ry {
+        compatible = "zmk,input-processor-code-mapper";
+        #input-processor-cells = <0>;
+        type = <INPUT_EV_REL>;
+        map = <INPUT_REL_X INPUT_REL_RX
+               INPUT_REL_Y INPUT_REL_RY>;
+    };
+
     zip_keybind_tab_switch: zip_keybind_tab_switch {
         compatible = "zmk,input-processor-keybind";
         #input-processor-cells = <0>;
@@ -187,6 +195,6 @@
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,
             <&zip_keybind_tab_switch>,
-            <&zip_xy_scaler 0 1>;
+            <&zip_xy_to_rel_rx_ry>;
     };
 };
