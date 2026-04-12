@@ -26,11 +26,10 @@
     zip_keybind_tab_switch: zip_keybind_tab_switch {
         compatible = "zmk,input-processor-keybind";
         #input-processor-cells = <0>;
-        track_remainders;
         mode = <1>;
-        threshold = <4>;
-        tick = <70>;
-        wait-ms = <120>;
+        threshold = <5>;
+        tick = <160>;
+        wait-ms = <180>;
         tap-ms = <16>;
         max_pending_activations = <1>;
         bindings = <&kp LC(TAB)>,
