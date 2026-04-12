@@ -28,15 +28,15 @@
         #input-processor-cells = <0>;
         track_remainders;
         mode = <1>;
-        threshold = <5>;
-        tick = <80>;
-        wait-ms = <80>;
-        tap-ms = <20>;
-        max_pending_activations = <1>;
+        threshold = <2>;
+        tick = <30>;
+        wait-ms = <0>;
+        tap-ms = <12>;
+        max_pending_activations = <2>;
         bindings = <&kp LC(TAB)>,
                    <&kp LC(LS(TAB))>,
-                   <&kp LC(T)>,
-                   <&kp LC(W)>;
+                   <&kp LG(T)>,
+                   <&kp LG(W)>;
     };
 
     combos {
@@ -186,6 +186,7 @@
     tab_switcher {
         layers = <TAB_GESTURE>;
         input-processors =
+            <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,
             <&zip_keybind_tab_switch>,
             <&zip_xy_scaler 0 1>;
     };
