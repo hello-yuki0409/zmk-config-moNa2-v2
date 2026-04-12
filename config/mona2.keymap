@@ -1,4 +1,5 @@
 #include <input/processors.dtsi>
+#include <input/processors/zmk-input-processor-keybind.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
@@ -9,6 +10,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #define MOUSE 5
 #define SCROLL 6
+#define TAB_GESTURE 7
 
 &mt {
     flavor = "balanced";
@@ -21,6 +23,22 @@
 };
 
 / {
+    zip_keybind_tab_switch: zip_keybind_tab_switch {
+        compatible = "zmk,input-processor-keybind";
+        #input-processor-cells = <0>;
+        track_remainders;
+        mode = <1>;
+        threshold = <5>;
+        tick = <80>;
+        wait-ms = <80>;
+        tap-ms = <20>;
+        max_pending_activations = <1>;
+        bindings = <&kp LC(TAB)>,
+                   <&kp LC(LS(TAB))>,
+                   <&kp LC(T)>,
+                   <&kp LC(W)>;
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -150,5 +168,25 @@
 
             sensor-bindings = <&scroll_up_down>;
         };
+
+        TAB_GESTURE {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+            >;
+
+            sensor-bindings = <&scroll_up_down>;
+        };
+    };
+};
+
+&trackball_central_listener {
+    tab_switcher {
+        layers = <TAB_GESTURE>;
+        input-processors =
+            <&zip_keybind_tab_switch>,
+            <&zip_xy_scaler 0 1>;
     };
 };
