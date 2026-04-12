@@ -28,11 +28,11 @@
         #input-processor-cells = <0>;
         track_remainders;
         mode = <1>;
-        threshold = <2>;
-        tick = <30>;
-        wait-ms = <0>;
-        tap-ms = <12>;
-        max_pending_activations = <2>;
+        threshold = <4>;
+        tick = <70>;
+        wait-ms = <120>;
+        tap-ms = <16>;
+        max_pending_activations = <1>;
         bindings = <&kp LC(TAB)>,
                    <&kp LC(LS(TAB))>,
                    <&kp LG(T)>,
