@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - {t: A, h: LEFT CONTROL}
-  - B
+  - S
   - D
   - F
   - G
@@ -28,7 +28,7 @@ layers:
   - V
   - B
   - LANG4
-  - PRINTSCREEN
+  - Sft+Gui+4
   - N
   - M
   - ','
