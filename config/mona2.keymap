@@ -27,17 +27,17 @@
         compatible = "zmk,input-processor-code-mapper";
         #input-processor-cells = <0>;
         type = <INPUT_EV_REL>;
-        map = <INPUT_REL_X INPUT_REL_RX
-               INPUT_REL_Y INPUT_REL_RY>;
+        map = <INPUT_REL_X INPUT_REL_MISC
+               INPUT_REL_Y INPUT_REL_DIAL>;
     };
 
     zip_keybind_tab_switch: zip_keybind_tab_switch {
         compatible = "zmk,input-processor-keybind";
         #input-processor-cells = <0>;
         mode = <1>;
-        threshold = <5>;
+        threshold = <4>;
         tick = <160>;
-        wait-ms = <180>;
+        wait-ms = <140>;
         tap-ms = <16>;
         max_pending_activations = <1>;
         bindings = <&kp LC(TAB)>,
