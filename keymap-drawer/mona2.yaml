@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: P, h: '6'}
   - {t: A, h: LEFT CONTROL}
   - S
   - D
@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - LANG1
+  - LANGUAGE 2
   - Sft+Gui+4
   - N
   - M
@@ -39,7 +39,7 @@ layers:
   - Ctl+UP ARROW
   - '&mkp MB1'
   - {t: SPACE, h: '3'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
+  - {t: '&to_layer_0 LANG1', h: '3'}
   - BACKSPACE
   - {t: ENTER, h: '2'}
   - '&mkp MB2'
@@ -268,7 +268,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
