@@ -27,10 +27,8 @@
         compatible = "zmk,input-processor-code-mapper";
         #input-processor-cells = <0>;
         type = <INPUT_EV_REL>;
-        map = <
-INPUT_REL_X INPUT_REL_MISC
-               INPUT_REL_Y INPUT_REL_DIA
-        >;
+        map = <INPUT_REL_X INPUT_REL_MISC
+               INPUT_REL_Y INPUT_REL_DIAL>;
     };
 
     zip_keybind_tab_switch: zip_keybind_tab_switch {
