@@ -22,7 +22,7 @@ layers:
   - K
   - L
   - {t: ':', h: '6'}
-  - {t: Z, h: '3'}
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -37,7 +37,7 @@ layers:
   - LEFT COMMAND
   - LEFT ALT
   - Ctl+UP ARROW
-  - SPACE
+  - {t: SPACE, h: '3'}
   - '&mkp MB1'
   - {t: '&to_layer_0 LANG1', h: '1'}
   - BACKSPACE
