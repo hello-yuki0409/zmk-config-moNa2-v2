@@ -151,7 +151,7 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - END
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - ''
   - ''
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DELETE
   - {t: ▽, type: trans}
