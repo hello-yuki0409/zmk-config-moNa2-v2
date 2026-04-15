@@ -37,8 +37,8 @@ layers:
   - LEFT COMMAND
   - LEFT ALT
   - Ctl+UP ARROW
-  - '&mkp MB1'
-  - {t: SPACE, h: '3'}
+  - SPACE
+  - {t: '&mkp MB1', h: '3'}
   - {t: '&to_layer_0 LANG1', h: '1'}
   - BACKSPACE
   - {t: ENTER, h: '2'}
